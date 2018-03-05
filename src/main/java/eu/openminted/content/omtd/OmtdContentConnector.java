@@ -45,7 +45,7 @@ public class OmtdContentConnector implements ContentConnector{
     @org.springframework.beans.factory.annotation.Value("${content.limit:0}")
     private Integer contentLimit;
 
-    @org.springframework.beans.factory.annotation.Value("${solr.default.collection}")
+    @org.springframework.beans.factory.annotation.Value("${solr.omtd.collection}")
     private String defaultCollection;
 
     @org.springframework.beans.factory.annotation.Value("${solr.update.default.collection:false}")
