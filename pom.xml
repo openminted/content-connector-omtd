@@ -17,6 +17,11 @@
         </dependency>
         <dependency>
             <groupId>eu.openminted</groupId>
+            <artifactId>content-connector-openaire</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.openminted</groupId>
             <artifactId>omtd-cache-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
